@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCA7BBBFDFE9AF607CB1AAA7 /* Pods_ListViewTak1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD35063327FE5179FD4468C2 /* Pods_ListViewTak1.framework */; };
 		BE47B2E42238139700455A83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE47B2E32238139700455A83 /* AppDelegate.swift */; };
-		BE47B2E62238139700455A83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE47B2E52238139700455A83 /* ViewController.swift */; };
+		BE47B2E62238139700455A83 /* CheckListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE47B2E52238139700455A83 /* CheckListViewController.swift */; };
 		BE47B2E92238139700455A83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE47B2E72238139700455A83 /* Main.storyboard */; };
 		BE47B2EB2238139900455A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE47B2EA2238139900455A83 /* Assets.xcassets */; };
 		BE47B2EE2238139900455A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE47B2EC2238139900455A83 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B526E8598AEE6587CAB780B /* Pods-ListViewTak1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListViewTak1.debug.xcconfig"; path = "Target Support Files/Pods-ListViewTak1/Pods-ListViewTak1.debug.xcconfig"; sourceTree = "<group>"; };
+		AD35063327FE5179FD4468C2 /* Pods_ListViewTak1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListViewTak1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE47B2E02238139700455A83 /* ListViewTak1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListViewTak1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE47B2E32238139700455A83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE47B2E52238139700455A83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE47B2E52238139700455A83 /* CheckListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListViewController.swift; sourceTree = "<group>"; };
 		BE47B2E82238139700455A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE47B2EA2238139900455A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE47B2ED2238139900455A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE47B2EF2238139900455A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0224758562896FA663CFA08 /* Pods-ListViewTak1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListViewTak1.release.xcconfig"; path = "Target Support Files/Pods-ListViewTak1/Pods-ListViewTak1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCA7BBBFDFE9AF607CB1AAA7 /* Pods_ListViewTak1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		622A12A0A446D76D01879244 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD35063327FE5179FD4468C2 /* Pods_ListViewTak1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE47B2D72238139700455A83 = {
 			isa = PBXGroup;
 			children = (
 				BE47B2E22238139700455A83 /* ListViewTak1 */,
 				BE47B2E12238139700455A83 /* Products */,
+				FFED717FFCFFA4932F99BEC1 /* Pods */,
+				622A12A0A446D76D01879244 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +70,22 @@
 			isa = PBXGroup;
 			children = (
 				BE47B2E32238139700455A83 /* AppDelegate.swift */,
-				BE47B2E52238139700455A83 /* ViewController.swift */,
+				BE47B2E52238139700455A83 /* CheckListViewController.swift */,
 				BE47B2E72238139700455A83 /* Main.storyboard */,
 				BE47B2EA2238139900455A83 /* Assets.xcassets */,
 				BE47B2EC2238139900455A83 /* LaunchScreen.storyboard */,
 				BE47B2EF2238139900455A83 /* Info.plist */,
 			);
 			path = ListViewTak1;
+			sourceTree = "<group>";
+		};
+		FFED717FFCFFA4932F99BEC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B526E8598AEE6587CAB780B /* Pods-ListViewTak1.debug.xcconfig */,
+				D0224758562896FA663CFA08 /* Pods-ListViewTak1.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE47B2F22238139900455A83 /* Build configuration list for PBXNativeTarget "ListViewTak1" */;
 			buildPhases = (
+				77271C98CC78C4317C505355 /* [CP] Check Pods Manifest.lock */,
 				BE47B2DC2238139700455A83 /* Sources */,
 				BE47B2DD2238139700455A83 /* Frameworks */,
 				BE47B2DE2238139700455A83 /* Resources */,
+				16D4750A8473B954BDB6079A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,12 +156,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16D4750A8473B954BDB6079A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ListViewTak1/Pods-ListViewTak1-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ListViewTak1/Pods-ListViewTak1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77271C98CC78C4317C505355 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ListViewTak1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE47B2DC2238139700455A83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE47B2E62238139700455A83 /* ViewController.swift in Sources */,
+				BE47B2E62238139700455A83 /* CheckListViewController.swift in Sources */,
 				BE47B2E42238139700455A83 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +353,7 @@
 		};
 		BE47B2F32238139900455A83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B526E8598AEE6587CAB780B /* Pods-ListViewTak1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +371,7 @@
 		};
 		BE47B2F42238139900455A83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0224758562896FA663CFA08 /* Pods-ListViewTak1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
