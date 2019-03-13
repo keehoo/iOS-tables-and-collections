@@ -24,6 +24,20 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UQg-7y-gti" id="Ogw-CR-Rsz">
                                     <rect key="frame" x="0.0" y="0.0" width="335" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="1000" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Some Text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQk-aN-NKP">
+                                            <rect key="frame" x="20" y="4" width="295" height="35.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="EQk-aN-NKP" secondAttribute="bottom" constant="4" id="21a-lX-Voq"/>
+                                        <constraint firstItem="EQk-aN-NKP" firstAttribute="leading" secondItem="Ogw-CR-Rsz" secondAttribute="leading" constant="20" symbolic="YES" id="Ccj-Ic-8K5"/>
+                                        <constraint firstAttribute="trailing" secondItem="EQk-aN-NKP" secondAttribute="trailing" constant="20" symbolic="YES" id="RJb-fT-slF"/>
+                                        <constraint firstItem="EQk-aN-NKP" firstAttribute="top" secondItem="Ogw-CR-Rsz" secondAttribute="top" constant="4" id="vdH-pk-ex1"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -35,7 +49,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q7k-XH-T62" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="36" y="-297"/>
+            <point key="canvasLocation" x="36" y="-297.30134932533736"/>
         </scene>
     </scenes>
 </document>
