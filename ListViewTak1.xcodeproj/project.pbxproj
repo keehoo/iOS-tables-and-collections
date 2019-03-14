@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		BCA7BBBFDFE9AF607CB1AAA7 /* Pods_ListViewTak1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD35063327FE5179FD4468C2 /* Pods_ListViewTak1.framework */; };
+		BE030FB0223A6C09003094F4 /* SwageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE030FAF223A6C09003094F4 /* SwageVC.swift */; };
+		BE030FB3223A93DF003094F4 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE030FB2223A93DF003094F4 /* CategoryCell.swift */; };
+		BE030FD8223A9781003094F4 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE030FD7223A9781003094F4 /* Category.swift */; };
+		BE030FDB223A9935003094F4 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE030FDA223A9935003094F4 /* DataService.swift */; };
+		BE07DAD6223940DF00305E09 /* ContentDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE07DAD5223940DF00305E09 /* ContentDownloader.swift */; };
 		BE47B2E42238139700455A83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE47B2E32238139700455A83 /* AppDelegate.swift */; };
 		BE47B2E62238139700455A83 /* CheckListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE47B2E52238139700455A83 /* CheckListViewController.swift */; };
 		BE47B2E92238139700455A83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE47B2E72238139700455A83 /* Main.storyboard */; };
@@ -18,6 +23,11 @@
 /* Begin PBXFileReference section */
 		0B526E8598AEE6587CAB780B /* Pods-ListViewTak1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListViewTak1.debug.xcconfig"; path = "Target Support Files/Pods-ListViewTak1/Pods-ListViewTak1.debug.xcconfig"; sourceTree = "<group>"; };
 		AD35063327FE5179FD4468C2 /* Pods_ListViewTak1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListViewTak1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE030FAF223A6C09003094F4 /* SwageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwageVC.swift; sourceTree = "<group>"; };
+		BE030FB2223A93DF003094F4 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		BE030FD7223A9781003094F4 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		BE030FDA223A9935003094F4 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		BE07DAD5223940DF00305E09 /* ContentDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDownloader.swift; sourceTree = "<group>"; };
 		BE47B2E02238139700455A83 /* ListViewTak1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListViewTak1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE47B2E32238139700455A83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE47B2E52238139700455A83 /* CheckListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListViewController.swift; sourceTree = "<group>"; };
@@ -48,9 +58,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BE030FB1223A93B1003094F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE030FB2223A93DF003094F4 /* CategoryCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE030FD6223A976D003094F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE030FD7223A9781003094F4 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE030FD9223A9927003094F4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BE030FDA223A9935003094F4 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		BE47B2D72238139700455A83 = {
 			isa = PBXGroup;
 			children = (
+				BE030FD9223A9927003094F4 /* Services */,
+				BE030FD6223A976D003094F4 /* Model */,
+				BE030FB1223A93B1003094F4 /* View */,
 				BE47B2E22238139700455A83 /* ListViewTak1 */,
 				BE47B2E12238139700455A83 /* Products */,
 				FFED717FFCFFA4932F99BEC1 /* Pods */,
@@ -75,6 +112,8 @@
 				BE47B2EA2238139900455A83 /* Assets.xcassets */,
 				BE47B2EC2238139900455A83 /* LaunchScreen.storyboard */,
 				BE47B2EF2238139900455A83 /* Info.plist */,
+				BE07DAD5223940DF00305E09 /* ContentDownloader.swift */,
+				BE030FAF223A6C09003094F4 /* SwageVC.swift */,
 			);
 			path = ListViewTak1;
 			sourceTree = "<group>";
@@ -99,7 +138,7 @@
 				BE47B2DC2238139700455A83 /* Sources */,
 				BE47B2DD2238139700455A83 /* Frameworks */,
 				BE47B2DE2238139700455A83 /* Resources */,
-				16D4750A8473B954BDB6079A /* [CP] Copy Pods Resources */,
+				E0C80F669D5CF6BDCAF31078 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,28 +196,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		16D4750A8473B954BDB6079A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ListViewTak1/Pods-ListViewTak1-resources.sh",
-				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ListViewTak1/Pods-ListViewTak1-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		77271C98CC78C4317C505355 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,6 +218,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E0C80F669D5CF6BDCAF31078 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ListViewTak1/Pods-ListViewTak1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ListViewTak1/Pods-ListViewTak1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -209,7 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE47B2E62238139700455A83 /* CheckListViewController.swift in Sources */,
+				BE030FDB223A9935003094F4 /* DataService.swift in Sources */,
+				BE07DAD6223940DF00305E09 /* ContentDownloader.swift in Sources */,
+				BE030FB3223A93DF003094F4 /* CategoryCell.swift in Sources */,
+				BE030FB0223A6C09003094F4 /* SwageVC.swift in Sources */,
 				BE47B2E42238139700455A83 /* AppDelegate.swift in Sources */,
+				BE030FD8223A9781003094F4 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
