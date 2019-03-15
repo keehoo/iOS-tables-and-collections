@@ -18,6 +18,9 @@
 		BE47B2E92238139700455A83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE47B2E72238139700455A83 /* Main.storyboard */; };
 		BE47B2EB2238139900455A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE47B2EA2238139900455A83 /* Assets.xcassets */; };
 		BE47B2EE2238139900455A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE47B2EC2238139900455A83 /* LaunchScreen.storyboard */; };
+		BEBE08EB223BA874007B9D89 /* ProductsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE08EA223BA874007B9D89 /* ProductsCell.swift */; };
+		BEBE08ED223BA9DB007B9D89 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE08EC223BA9DB007B9D89 /* Product.swift */; };
+		BEBE08EF223BAFDC007B9D89 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE08EE223BAFDC007B9D89 /* ProductsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		BE47B2EA2238139900455A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE47B2ED2238139900455A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE47B2EF2238139900455A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEBE08EA223BA874007B9D89 /* ProductsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCell.swift; sourceTree = "<group>"; };
+		BEBE08EC223BA9DB007B9D89 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		BEBE08EE223BAFDC007B9D89 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		D0224758562896FA663CFA08 /* Pods-ListViewTak1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListViewTak1.release.xcconfig"; path = "Target Support Files/Pods-ListViewTak1/Pods-ListViewTak1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				BE030FB2223A93DF003094F4 /* CategoryCell.swift */,
+				BEBE08EA223BA874007B9D89 /* ProductsCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -70,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				BE030FD7223A9781003094F4 /* Category.swift */,
+				BEBE08EC223BA9DB007B9D89 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -114,6 +122,7 @@
 				BE47B2EF2238139900455A83 /* Info.plist */,
 				BE07DAD5223940DF00305E09 /* ContentDownloader.swift */,
 				BE030FAF223A6C09003094F4 /* SwageVC.swift */,
+				BEBE08EE223BAFDC007B9D89 /* ProductsViewController.swift */,
 			);
 			path = ListViewTak1;
 			sourceTree = "<group>";
@@ -248,7 +257,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE47B2E62238139700455A83 /* CheckListViewController.swift in Sources */,
+				BEBE08EB223BA874007B9D89 /* ProductsCell.swift in Sources */,
+				BEBE08ED223BA9DB007B9D89 /* Product.swift in Sources */,
 				BE030FDB223A9935003094F4 /* DataService.swift in Sources */,
+				BEBE08EF223BAFDC007B9D89 /* ProductsViewController.swift in Sources */,
 				BE07DAD6223940DF00305E09 /* ContentDownloader.swift in Sources */,
 				BE030FB3223A93DF003094F4 /* CategoryCell.swift in Sources */,
 				BE030FB0223A6C09003094F4 /* SwageVC.swift in Sources */,

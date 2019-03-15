@@ -29,4 +29,16 @@ class SwageVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         }
         return CategoryCellTableViewCell()
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let category = DataService.instance.getCategories()[indexPath.row]
+        performSegue(withIdentifier: "ProductsViewController", sender: category)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if let producsViewController = segue.destination as? ProductsViewController {
+            producsViewController.initializeProducts(category: sender as! Category)
+        }
+    }
 }

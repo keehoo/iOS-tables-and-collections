@@ -8,6 +8,9 @@
 
 import UIKit
 
+
+// THIS IS LEGACY - used to see that's the deal with UITableViewController.
+
 class CheckListViewController	: UITableViewController {
     
     
